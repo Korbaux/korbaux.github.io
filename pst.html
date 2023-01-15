@@ -1,0 +1,102 @@
+<html><head>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</head>
+<body>
+
+
+<div class="community-widget" style="
+    padding-top: 80px;
+">
+<div class="community-title"> </div>
+<style>
+
+		#pst-heading{font:700 14px burbank small bold,Arial,sans-serif;transform:scaleX(.9)}.rad-5{border-radius:5px}.pad-10{padding:10px}.margin-top-7{margin-top:7px}.text-align-center{text-align:center}#pst-clock{background:#f2f7fc;background:linear-gradient(#f2f7fc,#bedeff);border:3px solid #bbdcff;border-radius:12px;color:#0f5da1;position:relative;width:170px}#day,#time-wrapper{background:#0078c4;box-shadow:inset 4px 4px 6px #005c91;color:#fff}#time-wrapper{display:inline-block;font:19px Courier New,monospace;line-height:16px;width:150px}#day{font:14px Arial,sans-serif;padding:3px 10px}#pst-clock-wrapper{margin:50px 0 0}#pst-clock:before{background:url(https://i.imgur.com/yE4wKpM.png);top:-83px;right:5px;content:" ";position:absolute;width:87px;height:80px}@media (min-resolution:99dpi){#pst-clock:before{background:url(https://i.imgur.com/2hPEq63.png);background-size:cover}}
+p {
+    margin: 20px;
+}
+		
+		</style>
+<center>
+<div id="pst-clock" class="rad-5 pad-10">
+<div class="text-align-center" id="pst-heading">Penguin Standard Time</div>
+<div class="margin-top-7"><span id="time-wrapper" class="rad-5 pad-10 text-align-center"><span id="time">5:18:02</span>&nbsp;<span id="am_pm">PM</span></span></div>
+<div id="day" class="rad-5 margin-top-7 pad-10 text-align-center">Saturday</div>
+</div></center>
+<script data-cfasync="false" type="text/javascript" class="js-httpscommunitycprewrittennetPSTjs js-filehomekorbinDesktopCommunity20_20Club20Penguin20Rewritten_filesPSTjs">let minifiedCreditVar="Thanks Perapin!";function getElement(a){return document.getElementById(a)}
+function getHour(a){a-=8;return 0<a&&13>a?a:13<=a?a-12:a+12}
+function getMinute(a){return 10<=a?a:"0"+a}
+function getSecond(a){return 10<=a?a:"0"+a}
+function updateTime(){var a=getElement("time"),b=new Date;a.innerText=getHour(b.getUTCHours())+":"+getMinute(b.getUTCMinutes())+":"+getSecond(b.getUTCSeconds())}
+function updateDayNameAndTimePeriod(){var a=getElement("day"),b=getElement("am_pm"),c=new Date;c.setUTCHours(c.getUTCHours()-8);a.innerText="Sun Mon Tues Wednes Thurs Fri Satur".split(" ")[c.getUTCDay()]+"day";12>c.getUTCHours()?b.innerText="AM":b.innerText="PM";23===c.getUTCHours()||11===c.getUTCHours()?setTimeout(updateDayNameAndTimePeriod,1E3):(clearTimeout(void 0),setTimeout(updateDayNameAndTimePeriod,42E4))}
+updateTime();setInterval(updateTime,1E3);updateDayNameAndTimePeriod();</script>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body></html>
