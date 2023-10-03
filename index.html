@@ -7,7 +7,14 @@
  href="img/icon.png">
     <link rel="stylesheet/less" href="style.less">
     <script src="https://cdn.jsdelivr.net/npm/less"></script>
-    <script src="script.js"></script>
+    <script>
+      document.addEventListener('DOMContentLoaded', function() {
+    var themeSelect = document.getElementById('theme');
+    themeSelect.onchange = (event) => {
+        less.modifyVars({'@theme': `"${event.target.value}"`})
+    }
+ }, false);
+    </script>
   </head>
   <body>
     <div class="window">
