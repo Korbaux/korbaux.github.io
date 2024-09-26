@@ -1,10 +1,96 @@
 <!DOCTYPE html>
 <html lang="">
   <head>
+    <meta charset="utf-8">
+    <meta property="og:type" content=website>
+    <meta property="og:title" content="Korbo">
+    <meta property="og:description" content="korbo please add details">
+    <meta name="theme-color" content="#ff00ff">
     <title>Korbo</title>
-    <meta http-equiv="refresh" content="3; URL=https://korbosoft.codeberg.page/" />
+    <link rel="icon" type="image/png"
+ href="img/icon.png">
+    <link rel="stylesheet/less" href="style.less">
+    <script src="https://cdn.jsdelivr.net/npm/less"></script>
+    <script>
+      document.addEventListener('DOMContentLoaded', function() {
+        var themeSelect = document.getElementById('theme');
+        themeSelect.onchange = (event) => {
+          less.modifyVars({'@theme': `"${event.target.value}"`})
+        }
+      }, false);
+    </script>
   </head>
   <body>
-    <a>pls to hold... (redirect in 3 seconds)</a>
+    <div class="window">
+      <div class="title-bar">
+        <div class="title-bar-text">Helscome to Korbo's Wedsite!</div>
+      </div>
+      <div class="window-body">
+        <label for="theme">Page Theme: </label>
+        <select name="theme" id="theme">
+          <option value="latte">Catppuccin Latte</option>
+          <option value="frappe">Catppuccin Frappe</option>
+          <option value="macchiato">Catppuccin Macchiato</option>
+          <option value="mocha" selected>Catppuccin Mocha</option>
+          <option value="98">Windows 98</option>
+        </select>
+        <p>Hi! I'm a neurodivergent 15 year old programmer and musician.</p>
+      </div>
+    </div>
+    <br>
+    <div class="window">
+      <div class="title-bar">
+        <div class="title-bar-text">Various Novelty Knick-Knacks</div>
+      </div>
+      <div class="window-body">
+        <a href="https://korbough.github.io/"><img src="img/88x31/korbo.gif" alt="korbough.github.io" width="88" height="31" class="web-button"></a>
+        <a href="https://donut.eu.org/"><img src="img/88x31/emsite.png" alt="donut.eu.org" width="88" height="31" class="web-button"></a>
+        <a href="https://gabubu.gq/"><img src="img/88x31/gabubu.gif" alt="gabubu.gq" width="88" height="31" class="web-button"></a>
+        <img src="img/88x31/antinft.gif" alt="This is an Anti-NFT site" width="88" height="31" class="web-button">
+        <img src="img/88x31/agender.png" alt="Agender button" width="88" height="31" class="web-button">
+        <img src="img/88x31/trashhtml.png" alt="Trash HTML" width="88" height="31" class="web-button">
+        <a href="https://discord.gg/c9zpWSUxGG"><img src="img/88x31/wii_super_cool.png" alt="wii super cool" width="88" height="31" class="web-button"></a>
+        <br>
+        <img src="img/88x31/power-autism.gif" alt="Powered by Autism" width="88" height="31" class="web-button">
+        <a href="https://schizophrenic.lol"><img src="img/88x31/despair.gif" alt="Infinite use boy-kisser voucher at schizophrenic.lol" width="88" height="31" class="web-button"></a>
+        <a href="https://getwacup.com"><img src="img/88x31/wacup.gif" alt="Built listening to Winamp Community Update Project" width="88" height="31" class="web-button"></a>
+        <img src="img/88x31/graphicdesign.png" alt="graphic design is my passion" width="88" height="31" class="web-button">
+        <img src="img/88x31/cdi.gif" alt="I wonder what's for dinner." width="88" height="31" class="web-button">
+        <img src="img/88x31/panbread.png" alt="pan bread" width="88" height="31" class="web-button">
+        <img src="img/88x31/copyfloppy.gif" alt="Copy that Floppy!" width="88" height="31" class="web-button">
+        <br>
+        <img src="img/88x31/bookmark.gif" alt="Bookmark this Page!" width="88" height="31" class="web-button">
+        <img src="img/88x31/paws.png" alt="Made with my own two paws" width="88" height="31" class="web-button">
+        <a href="https://hacks.guide"><img src="img/88x31/hacks_guide.png" alt="hacks.guide" width="88" height="31" class="web-button"></a>
+        <a href="https://wiilink24.com"><img src="img/88x31/wiilink.png" alt="WiiLink" width="88" height="31" class="web-button"></a>
+        <img src="img/88x31/empty.png" alt="empty space" width="88" height="31" class="web-button">
+        <img src="img/88x31/empty.png" alt="empty space" width="88" height="31" class="web-button">
+        <img src="img/88x31/empty.png" alt="empty space" width="88" height="31" class="web-button">
+        <br>
+        <img src="img/88x31/empty.png" alt="empty space" width="88" height="31" class="web-button">
+        <img src="img/88x31/empty.png" alt="empty space" width="88" height="31" class="web-button">
+        <img src="img/88x31/empty.png" alt="empty space" width="88" height="31" class="web-button">
+        <img src="img/88x31/empty.png" alt="empty space" width="88" height="31" class="web-button">
+        <img src="img/88x31/empty.png" alt="empty space" width="88" height="31" class="web-button">
+        <img src="img/88x31/empty.png" alt="empty space" width="88" height="31" class="web-button">
+        <img src="img/88x31/empty.png" alt="empty space" width="88" height="31" class="web-button">
+        <br>
+        <img src="img/88x31/empty.png" alt="empty space" width="88" height="31" class="web-button">
+        <img src="img/88x31/empty.png" alt="empty space" width="88" height="31" class="web-button">
+        <img src="img/88x31/empty.png" alt="empty space" width="88" height="31" class="web-button">
+        <img src="img/88x31/empty.png" alt="empty space" width="88" height="31" class="web-button">
+        <img src="img/88x31/empty.png" alt="empty space" width="88" height="31" class="web-button">
+        <img src="img/88x31/empty.png" alt="empty space" width="88" height="31" class="web-button">
+        <img src="img/88x31/empty.png" alt="empty space" width="88" height="31" class="web-button">
+        <br>
+        <img src="img/88x31/empty.png" alt="empty space" width="88" height="31" class="web-button">
+        <img src="img/88x31/empty.png" alt="empty space" width="88" height="31" class="web-button">
+        <img src="img/88x31/empty.png" alt="empty space" width="88" height="31" class="web-button">
+        <img src="img/88x31/empty.png" alt="empty space" width="88" height="31" class="web-button">
+        <img src="img/88x31/empty.png" alt="empty space" width="88" height="31" class="web-button">
+        <img src="img/88x31/empty.png" alt="empty space" width="88" height="31" class="web-button">
+        <img src="img/88x31/empty.png" alt="empty space" width="88" height="31" class="web-button">
+      </div>
+    </div>
   </body>
 </html>
